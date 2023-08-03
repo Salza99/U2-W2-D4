@@ -1,0 +1,24 @@
+@import "./bootstrapoverride";
+body {
+  margin: 0;
+}
+#nav {
+  & {
+    div {
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      right: 1vw;
+      bottom: 1vh;
+    }
+    #img-nav {
+      width: 40px;
+      border-radius: 50%;
+    }
+  }
+}
+.img-card-user {
+  width: 30px;
+  border-radius: 50%;
+}
